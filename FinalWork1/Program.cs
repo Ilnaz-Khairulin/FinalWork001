@@ -13,8 +13,8 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-// string[] array = new string[4] {"Hello", "2", "world", ":-)"};
- string[] array = new string[4] {"1234", "1567", "-2", "computer science"};
+ string[] array = new string[4] {"Hello", "2", "world", ":-)"};
+//string[] array = new string[4] {"1234", "1567", "-2", "computer science"};
 //string[] array = new string[3] {"Russia", "Denmark", "Kazan"};
 string[] array_finish = new string[array.Length];
 int count = 0;
