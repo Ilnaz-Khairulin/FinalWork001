@@ -16,13 +16,14 @@
 string[] array = new string[4] {"Hello", "2", "world", ":-)"};
 string[] array_finish = new string[array.Length];
 int count = 0;
+Console.Write("[");
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i].Length <= 3)
     {
         array_finish[count]=array[i];
+        Console.Write(array_finish[count]+ ",");
         count++;
     }
 }
-
-
+Console.Write("]");
